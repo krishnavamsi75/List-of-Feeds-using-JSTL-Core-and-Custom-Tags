@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added a modern font */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.container {
+    flex: 1;
+    margin: 20px;
+    background-color: #007BFF; /* Changed to a more vibrant blue */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Increased padding for better spacing */
+}
+
+h2 {
+    color: #fff; /* Changed to white for better contrast */
+    text-align: center; /* Centered heading */
+}
+
+.date-time {
+    font-size: 16px;               
+    color: #333; /* Darker text for readability */
+    margin-bottom: 20px;           
+    font-style: italic;             
+    background-color: #80ff80; 
+    padding: 15px; /* Increased padding for a better look */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;            
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures rounded corners are visible */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #FF6347; 
+    color: white;
+    text-transform: uppercase; /* Uppercase for headers */
+}
+
+tr:hover {
+    background-color: #FFD700;
+}
+
+tr:nth-child(even) {
+    background-color: #E0FFFF; 
+}
+
+footer {
+    background-color: #DCDCDC; 
+    padding: 15px; /* Increased padding */
+    text-align: center;
+    margin-top: auto; 
+    border-top: 2px solid #007BFF; /* Added top border for separation */
+}
+
+.copyright {
+    font-size: 14px;
+    color: #555; 
+}
